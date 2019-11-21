@@ -14,7 +14,12 @@
 */
 
 /* Table Styles */
-
+table{
+   width: 100%;
+   border: 15px outset rgb(151, 151, 151);
+   border-collapse: collapse;
+   
+}
 
 
 /* Table Caption Styles */
