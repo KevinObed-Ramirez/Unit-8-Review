@@ -14,27 +14,57 @@
 */
 
 /* Table Styles */
-table{
+table.programs{
    width: 100%;
    border: 15px outset rgb(151, 151, 151);
    border-collapse: collapse;
-   
+}
+ tr{
+height: 25px;
+}
+th, td{
+   border: 1px solid gray ;
+   vertical-align: top;
+   padding: 5px;
+}
+
+/* Table Caption Styles */
+caption{
+caption-side: bottom;
+text-align: center;
 }
 
 
-/* Table Caption Styles */
-
-
-
 /* Table Column Styles */
-
-
+col.timeCol{
+   width: 10%;
+   background-color: rgb(215, 205, 151);
+}
+col.wDaysCol{
+width: 11%;
+background-color: rgb(236,255,211);
+}
+col.wEndCol{
+width: 17%;
+background-color: rgb(255, 231, 255);
+}
 
 /* Table Header Styles */
-
-
-
+thead{
+   color: white;
+   background-color: rgb(105, 177, 60)
+}
+thead th:first-of-type{
+   background-color: rgb(153, 86, 7);
+}
+thead th:nth-of-type(7), thead th:nth-of-type(8){
+background-color: rgb(153, 0, 153);
+}
 /* Table Footer Styles */
+tfoot{
+color: white;
+background-color: black;
+}
 
 
 
